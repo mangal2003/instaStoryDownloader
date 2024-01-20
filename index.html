@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Story Saver</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <span>Instagram Story <br> Downloader</span>
+
+        <input type="text" placeholder="Enter Username or URL" id="urlUsername">
+
+        <button id="getStoryBtn" onclick="getStoryLinks()"> Get Stories </button>
+
+        <div id="links">
+            <div id="animationLoading">
+                <div id="circle1" class="circle"></div>
+                <div id="circle2" class="circle"></div>
+                <div id="circle3" class="circle"></div>
+                <div id="circle4" class="circle"></div>
+                <div id="circle5" class="circle"></div>
+            </div>
+            <div id="stories">
+                <p id="wait">Please Wait... <br>Retrieving Video Stories</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
